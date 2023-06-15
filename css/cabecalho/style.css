@@ -1,0 +1,54 @@
+.cabecalho{
+    display: none;
+    padding: 2.5rem 3.25rem 0px 3.25rem;
+}
+
+.cabecalho__fundo{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../img/wave\ \(3\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 18.188rem;
+}
+
+.cabecalho__conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__imagem{
+    width: 4rem;
+}
+
+.cabecalho__navbar{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    color: var(--cor-branca);
+}
+
+.cabecalho__link{
+    color: var(--cor-branca);
+    font-family: var(--fonte-primaria);
+    font-size: 1.438rem;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .cabecalho__imagem{
+        display: none;
+    }  
+    .cabecalho__link{
+        font-size: 1rem;
+    }
+    .cabecalho{
+        padding: 1.5rem 2.25rem 0px 1.25rem;
+    }
+
+    .cabecalho__conteudo{
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;1,600&family=Glegoo:wght@400;700&family=Open+Sans:wght@300;400&display=swap');
+
+:root{
+  /* CORES */
+  --cor-primaria: #141B4E;
+  --cor-secundaria: #21C0FC;
+  --cor-borda: #004AAD;
+  --cor-branca: #f9f9f9;
+  --cor-preta: #000000;
+
+  /* FONTES */
+  --fonte-primaria: 'Glegoo', serif; /* Esta aplicada no navbar e no nome */
+  --fonte-secundaria: 'Exo', sans-serif;
+  --fonte-openSans: 'Open Sans', sans-serif;
+}
+
+body{
+  background-image: linear-gradient(to right bottom, #141b4e, #1c407b, #1d68a7, #1b93d3, #21c0fc);
+  color: var(--cor-branca);
+  font-family: var(--fonte-secundaria);
+  height: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+}

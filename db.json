@@ -1,0 +1,76 @@
+{
+  "videos": [
+    {
+      "id": 9,
+      "imagem": "",
+      "url":"",
+      "titulo": "",
+      "descricao": "",
+      "linkgit": ""
+    },
+    {
+      "id": 8,
+      "imagem": "",
+      "url":"",
+      "titulo": "",
+      "descricao": "",
+      "linkgit": ""
+    },
+    {
+      "id": 7,
+      "imagem": "",
+      "url":"",
+      "titulo": "",
+      "descricao": "",
+      "linkgit": ""
+    },
+    {
+      "id": 6,
+      "imagem": "https://github.com/Luis-Emanuel/Alura_Cast/blob/main/readme/GIF.gif?raw=true",
+      "url":"https://alura-cast-bqcm.vercel.app/#",
+      "titulo": "Alura Cast",
+      "descricao": "Alura Cast é uma página estática e totalmente responsiva inspirada na plataforma Spotify e foi construída somente com CSS Grid Layout",
+      "linkgit": "https://github.com/Luis-Emanuel/Alura_Cast"
+    },
+    {
+      "id": 5,
+      "imagem": "https://github.com/Luis-Emanuel/Alura_Strore/blob/main/readme/gif.gif?raw=true",
+      "url":"https://alura-strore-2yssjoef7-luis-emanuel.vercel.app/",
+      "titulo": "Alura Strore",
+      "descricao": "Alura Store e uma página de uma loja de aplicativos que tem como objetivo trabalhar o posicionamento de elementos no grid layout",
+      "linkgit": "https://github.com/Luis-Emanuel/Alura_Strore"
+    },
+    {
+      "id": 4,
+      "imagem": "https://github.com/Luis-Emanuel/AluraPlay/blob/main/readme/gif.gif?raw=true",
+      "url":"https://alura-play-ivory.vercel.app/#",
+      "titulo": "Alura Play",
+      "descricao": "O projeto se chama AluraPlay, é uma plataforma de vídeos com um layout moderno e rico em elementos. Esse projeto possui três telas principais, para celular, tablets e desktops.",
+      "linkgit": "https://github.com/Luis-Emanuel/AluraPlay"
+    },
+    {
+      "id": 3,
+      "imagem": "https://github.com/Luis-Emanuel/Alurinha/blob/main/readme/alurinhaGIF.gif?raw=true",
+      "url":"https://luis-emanuel.github.io/Alurinha/",
+      "titulo": "Alurinha",
+      "descricao": "É uma página de gerenciamento de cursos online. Seu desenvolvimento tem como objetivo colocar em pratica conhecimentos de flexbox",
+      "linkgit": "https://github.com/Luis-Emanuel/Alurinha"
+    },
+    {
+      "id": 2,
+      "imagem": "https://github.com/Luis-Emanuel/Alura_Plus/blob/main/readme/readmiGIF.gif?raw=true",
+      "url":"https://alura-plus-nt.vercel.app/",
+      "titulo": "Alura Plus",
+      "descricao": "Um página inicial feita para a divulgação dos planos dos cursos da Alura",
+      "linkgit": "https://github.com/Luis-Emanuel/Alura_Plus"
+    },
+    {
+      "id": 1,
+      "imagem": "https://github.com/Luis-Emanuel/barbearia/raw/main/readme/readmeGIF.gif?raw=true",
+      "url":"https://barbearia-k7xo27ev3-luis-emanuel.vercel.app/index.html",
+      "titulo": "Barbearia",
+      "descricao": "Pagina Web de uma barbearia com área de contato e lista de produtos",
+      "linkgit": "https://github.com/Luis-Emanuel/barbearia"
+    }
+  ]
+}

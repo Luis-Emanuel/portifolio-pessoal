@@ -1,0 +1,59 @@
+.banner{
+    position: relative;
+    display: flex;
+    padding: 2.5rem 3.25rem 3.125rem 3.25rem;
+}
+.banner__sobreMim{
+    display: flex;
+    flex-direction: column;
+    width: 36.9rem;
+}
+
+.banner__nome{
+    font-size: 6.494rem;
+    font-family: var(--fonte-primaria);
+    margin-bottom: 1.875rem;
+}
+
+.banner__proficao{
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.438rem;
+    margin-bottom: 1.375rem;
+}
+
+.banner__descrição{
+    font-size: 1.344rem;
+    margin-bottom: 2.563rem;
+}
+
+.banner__tecnologias{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.2rem;
+}
+
+.banner__tecnologia{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.banner__minhaFoto{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width: 768px){
+    .banner{
+        padding: 1.5rem 2.25rem 2.125rem 1.25rem;
+    }
+    .banner__minhaFoto{
+        display: none;
+    }   
+
+    .banner__nome{
+        font-size: 3rem;
+    }
+    
+}

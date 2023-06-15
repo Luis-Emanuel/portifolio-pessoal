@@ -1,0 +1,69 @@
+.projeto{
+    display: grid;
+    gap: 1rem;
+    max-width: 44rem;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    'imagem titulo'
+    'imagem descricao'
+    'imagem botao' ; 
+}
+
+.projeto__conteudo{
+    position: relative;
+    grid-area: imagem;
+}
+
+.projeto__titulo{
+    grid-area: titulo;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+
+.projeto__descrição{  
+    grid-area: descricao;
+    font-size: 1.2rem;
+    max-height: 14.5rem;
+}
+
+.projeto__botao{
+    grid-area: botao;
+    text-align: center;
+    font-family: var(--fonte-openSans);
+    padding: 0.875rem;
+    color: var(--cor-branca);
+    background-color: var(--cor-borda);
+    border-radius: 22px;
+    text-decoration: none;
+    max-width: 22rem;
+}
+
+.projeto__imagem{
+    border: solid 1rem var(--cor-borda);
+    width: 19.75rem;
+    height: 11rem;
+}
+
+
+.projeto__link{
+    position: absolute;
+    left: 19.00rem;
+    top: 10.5rem;
+    text-decoration: none;
+}
+
+@media (max-width: 769px){
+    .projeto{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        background-color: #ececec6e;
+        border-radius: 22px;
+    } 
+    .projeto__descrição{
+        max-width: 20.75rem;
+    }  
+    
+}
+

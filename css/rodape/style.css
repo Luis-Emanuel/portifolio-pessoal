@@ -1,0 +1,23 @@
+.rodape__lista{
+    margin: auto;
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.rodape__link{
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.rodape__link--github{
+    background-image: url(../../img/rodape/github.png);
+}
+.rodape__link--instagram{
+    background-image: url(../../img/rodape/instagram.png);
+}
+.rodape__link--linkedin{
+    background-image: url(../../img/rodape/linkedin.png);
+}
