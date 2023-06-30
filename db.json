@@ -18,11 +18,11 @@
     },
     {
       "id": 7,
-      "imagem": "",
-      "url":"",
-      "titulo": "",
-      "descricao": "",
-      "linkgit": ""
+      "imagem": "https://github.com/Luis-Emanuel/Comunidade-de-Skate-HZC/blob/main/readme/comunidade-gif.gif?raw=true",
+      "url":"https://luis-emanuel.github.io/Comunidade-de-Skate-HZC/",
+      "titulo": "Comunidade de Skate HZC",
+      "descricao": "Pagina Web de uma comunidade de skate, esse projeto tem como objetivo praticar o posicionamento de elementos utilizando grid",
+      "linkgit": "https://github.com/Luis-Emanuel/Comunidade-de-Skate-HZC/tree/main"
     },
     {
       "id": 6,
