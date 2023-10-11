@@ -1,7 +1,6 @@
 async function listaProjetos(){
-    const conexao = await fetch("https://imgport.netlify.app/info/db.json");
+    const conexao = await fetch("https://api-portifolio-one.vercel.app/videos");
     const conexaoConvertida = await conexao.json();
-    console.log(conexao)
     return conexaoConvertida;
 }
 
