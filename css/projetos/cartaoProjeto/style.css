@@ -2,17 +2,24 @@
     display: grid;
     gap: 1rem;
     max-width: 44rem;
-    grid-template-columns: 1fr auto;
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto 1fr;
     grid-template-areas: 
     'imagem titulo'
-    'imagem descricao'
-    'imagem botao' ; 
+    'imagem descricao' ; 
 }
 
 .projeto__conteudo{
     position: relative;
     grid-area: imagem;
+    border: solid 1rem var(--cor-borda);
+}
+
+.projeto__info{
+    grid-area: descricao;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .projeto__titulo{
@@ -22,13 +29,12 @@
 }
 
 .projeto__descrição{  
-    grid-area: descricao;
     font-size: 1.2rem;
     max-height: 14.5rem;
+    margin-bottom: 1rem;
 }
 
 .projeto__botao{
-    grid-area: botao;
     text-align: center;
     font-family: var(--fonte-openSans);
     padding: 0.875rem;
@@ -40,16 +46,15 @@
 }
 
 .projeto__imagem{
-    border: solid 1rem var(--cor-borda);
-    width: 19.75rem;
-    height: 11rem;
+    width: 100%;
+    height: 100%;
 }
 
 
 .projeto__link{
     position: absolute;
-    left: 19.00rem;
-    top: 10.5rem;
+    bottom: 0;
+    right: -1px;
     text-decoration: none;
 }
 
@@ -60,10 +65,7 @@
         padding: 0.5rem;
         background-color: #ececec6e;
         border-radius: 22px;
-    } 
-    .projeto__descrição{
         max-width: 20.75rem;
-    }  
-    
+    } 
 }
 

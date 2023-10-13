@@ -7,12 +7,14 @@ function cronstroiCard(id, imagem, linkgit, titulo, descricao, url){
     projeto.className = "projeto"
     projeto.innerHTML = `
     <h3 class="projeto__titulo">${titulo}</h3>
-      <div class="projeto__conteudo">
-        <img class="projeto__imagem" src="${imagem}" alt="">
-        <a class=" icon-arrow projeto__link" href="${url}" target="_blank"></a>
+    <div class="projeto__conteudo">
+    <img class="projeto__imagem" src="${imagem}" alt="">
+    <a class=" icon-arrow projeto__link" href="${url}" target="_blank"></a>
+    </div>
+    <div class="projeto__info">
+        <p class="projeto__descrição">${descricao}</p>
+        <a href="${linkgit}" class="projeto__botao"> <span class="icon-github2"></span>Repositorio Github</a>
       </div>
-      <p class="projeto__descrição">${descricao}</p>
-      <a href="${linkgit}" class="projeto__botao"> <span class="icon-github2"></span>Repositorio Github</a>
     `
     return projeto;
 }
