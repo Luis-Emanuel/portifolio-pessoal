@@ -2,17 +2,19 @@
     display: grid;
     gap: 1rem;
     max-width: 44rem;
-    grid-template-columns: 50% auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto 1fr;
     grid-template-areas: 
     'imagem titulo'
     'imagem descricao' ; 
+    align-items: stretch;
 }
 
 .projeto__conteudo{
     position: relative;
     grid-area: imagem;
     border: solid 1rem var(--cor-borda);
+    width: 300px;
 }
 
 .projeto__info{
